@@ -51,3 +51,4 @@ houses = {1: "ABC", 2: "BCD",3: "CDE"}
 new_houses = {n**2: house + '!' for (n, house) in houses.items()}
 print(houses)
 print(new_houses)
+

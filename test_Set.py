@@ -1,3 +1,5 @@
+import math
+
 random_set = {"Educative", 1408, 1.23, (True, False)}
 print(random_set)
 print(len(random_set))
@@ -53,3 +55,8 @@ import datetime
 print(datetime.datetime.now())
 print(datetime.datetime.now().strftime("%H:%M:%S"))
 print(datetime.datetime.now().strftime("%y:%m:%d"))
+
+
+print(math.factorial(5))
+print(math.gcd(300,5))
+print(math.log(10,100))
